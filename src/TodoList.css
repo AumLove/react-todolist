@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+.toDoList{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.toDoList P{
+    font-size: 30px; 
+    font-weight: 600;
+    color: brown;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.toDoList div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.toDoList input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+.toDoList button{
+    width: 40px;
+    height: 30px;
+
+}
+ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul li{
+    width: 340px; 
+    text-align: right;
+    margin-top: 10px;
+}
+li button{
+   margin-left: 10px; 
+}
